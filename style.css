@@ -39,7 +39,9 @@
 .hero-main {
     display: flex;
     flex-direction: column;
-    flex-basis: 450px;
+    flex-basis: 400px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero-main-text {
@@ -47,3 +49,19 @@
     color: #F9FAF8;
     font-weight: 900;
 }
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.blue-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    width: 100px;
+    font-weight: 700;
+}
+
