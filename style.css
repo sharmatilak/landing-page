@@ -7,6 +7,7 @@
 .navbar,
 .hero {
     background-color: #1F2937;
+    padding-bottom: 100px;
 }
 
 .content-wrapper {
@@ -34,14 +35,13 @@
 
 .hero {
     display: flex;
+    justify-content: space-around;
 }
 
 .hero-main {
     display: flex;
     flex-direction: column;
     flex-basis: 400px;
-    justify-content: space-around;
-    align-items: center;
 }
 
 .hero-main-text {
@@ -65,3 +65,10 @@
     font-weight: 700;
 }
 
+.image {
+    flex-basis: 450px;
+    background-color: #acacac9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
